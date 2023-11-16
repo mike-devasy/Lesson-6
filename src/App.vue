@@ -54,4 +54,22 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 20px;
+	margin: 50px;
+	padding: 20px;
+	background-color: rgb(127, 191, 255);
+	border-radius: 20px;
+	font-size: 20px;
+	width: 430px;
+}
+input{
+	border:none;
+	border-radius: 5px;
+	height: 30px;
+	font-size: 14px;
+}			
 </style>
